@@ -1,0 +1,29 @@
+{
+  "name": "global-styles-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass scss/main.scss dist/main.css && postcss dist/main.css -o dist/main.min.css",
+    "lint": "stylelint **/*.scss",
+    "lint:fix": "stylelint **/*.scss --fix",
+    "format": "prettier --write **/*.scss"
+  },
+  "files": [
+    "dist/main.css",
+    "dist/main.min.css",
+    "scss"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Global Styles",
+  "devDependencies": {
+    "cssnano": "^7.0.6",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.0",
+    "prettier": "^3.5.3",
+    "sass": "^1.85.1",
+    "stylelint": "^16.15.0",
+    "stylelint-config-standard-scss": "^14.0.0"
+  }
+}

@@ -1,0 +1,5 @@
+@use '../variables' as vars;
+
+.btn-primary {
+  background-color: vars.$primary;
+}
