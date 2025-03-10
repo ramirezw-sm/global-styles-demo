@@ -1,6 +1,6 @@
 {
-  "name": "global-styles-demo",
-  "version": "1.0.0",
+  "name": "@ramirezw-sm/global-styles-demo",
+  "version": "1.0.0-beta.1",
   "main": "index.js",
   "scripts": {
     "build": "sass scss/main.scss dist/main.css && postcss dist/main.css -o dist/main.min.css",
@@ -16,7 +16,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "Global Styles",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Global Styles Demo",
   "devDependencies": {
     "cssnano": "^7.0.6",
     "postcss": "^8.5.3",
